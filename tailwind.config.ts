@@ -1,17 +1,41 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
+    },
+    colors: {
+      "primary-light": "#DDE6ED",
+      "primary-medium": "#27374D",
+      "primary-dark": "#0D131A",
+      "secondary-light": "#AB987A",
+      "secondary-medium": "#857254",
+      "secondary-dark": "#564A36",
+      "accent-light": "#DC9C89",
+      "accent-medium": "#BA3A13",
+      "accent-dark": "#5D1D09",
+      "bg-light": "#F5F5F5",
+      "bg-medium": "#BDBDBD",
+      "bg-dark": "#111111",
+      black: '#000',
+      white: '#fff',
+    },
+    fontFamily: {
+      sans: ["Noto Sans", "sans-serif"],
+      serif: ["Merriweather", "serif"],
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      spacing: {
+        "128": "32rem",
+        "144": "36rem",
+      },
+      borderRadius: {
+        "4xl": "2rem",
       },
     },
   },
