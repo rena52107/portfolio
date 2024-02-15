@@ -55,79 +55,79 @@ function About() {
           />
           <Image
             src={"/svgs/logos/icons-javascript.svg"}
-            alt="HTML5"
+            alt="JavaScript"
             width={60}
             height={60}
           />{" "}
           <Image
             src={"/svgs/logos/icons-typescript.svg"}
-            alt="CSS3"
+            alt="TypeScript"
             width={60}
             height={60}
           />
           <Image
             src={"/svgs/logos/icons-react.svg"}
-            alt="SASS"
+            alt="React"
             width={60}
             height={60}
           />
           <Image
             src={"/svgs/logos/icons-nextjs.svg"}
-            alt="HTML5"
+            alt="Next.js"
             width={60}
             height={60}
           />{" "}
           <Image
             src={"/svgs/logos/icons-tailwindcss.svg"}
-            alt="CSS3"
+            alt="Tailwind CSS"
             width={60}
             height={60}
           />
           <Image
             src={"/svgs/logos/icons-nodejs.svg"}
-            alt="SASS"
+            alt="Node.js"
             width={60}
             height={60}
           />
           <Image
             src={"/svgs/logos/icons-express.svg"}
-            alt="HTML5"
+            alt="Express"
             width={60}
             height={60}
           />{" "}
           <Image
             src={"/svgs/logos/icons-mysql.svg"}
-            alt="CSS3"
+            alt="MySQL"
             width={60}
             height={60}
           />
           <Image
             src={"/svgs/logos/icons-mongodb.svg"}
-            alt="SASS"
+            alt="MongoDB"
             width={60}
             height={60}
           />
           <Image
             src={"/svgs/logos/icons-firebase.svg"}
-            alt="HTML5"
+            alt="Firebase"
             width={60}
             height={60}
           />{" "}
           <Image
             src={"/svgs/logos/icons-aws.svg"}
-            alt="CSS3"
+            alt="AWS"
             width={60}
             height={60}
           />
           <Image
             src={"/svgs/logos/icons-wordpress.svg"}
-            alt="SASS"
+            alt="WordPress"
             width={60}
             height={60}
           />
           <Image
             src={"/svgs/logos/icons-php.svg"}
-            alt="SASS"
+            alt="PHP"
             width={60}
             height={60}
           />
