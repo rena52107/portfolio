@@ -1,8 +1,8 @@
-import GithubIcon from "../../../public/assets/svgs/github.svg";
-import LinkedInIcon from "../../../public/assets/svgs/linkedin.svg";
-import MediumIcon from "../../../public/assets/svgs/medium.svg";
-import MailIcon from "../../../public/assets/svgs/mail.svg";
-import DocIcon from "../../../public/assets/svgs/description.svg";
+import GithubIcon from "../../../public/svgs/github.svg";
+import LinkedInIcon from "../../../public/svgs/linkedin.svg";
+import MediumIcon from "../../../public/svgs/medium.svg";
+import MailIcon from "../../../public/svgs/mail.svg";
+import DocIcon from "../../../public/svgs/description.svg";
 
 function Contact() {
   return (

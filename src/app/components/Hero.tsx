@@ -16,7 +16,7 @@ function Hero() {
       </div>
       <div>
         <Image
-          src="/assets/svgs/hero-main.svg"
+          src="/svgs/hero-main.svg"
           width={400}
           height={400}
           alt="Illustration of Rena coding on a laptop"
