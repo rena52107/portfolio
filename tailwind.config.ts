@@ -10,6 +10,8 @@ const config: Config = {
       xl: "1440px",
     },
     colors: {
+      transparent: "transparent",
+      current: "currentColor",
       "primary-light": "#DDE6ED",
       "primary-medium": "#27374D",
       "primary-dark": "#0D131A",
@@ -22,8 +24,8 @@ const config: Config = {
       "bg-light": "#F5F5F5",
       "bg-medium": "#BDBDBD",
       "bg-dark": "#111111",
-      black: '#000',
-      white: '#fff',
+      black: "#000",
+      white: "#fff",
     },
     fontFamily: {
       sans: ["Noto Sans", "sans-serif"],
