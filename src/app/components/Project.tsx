@@ -37,10 +37,12 @@ const ProjectComponent: React.FC<Project> = ({
         <h3>{title}</h3>
         <p>{tag}</p>
         <p>{description}</p>
-        {/* Todo: Add comma after each element except for the last one */}
         <ul>
-          {techStack.map((tech: string) => (
-            <li key={tech}>{tech}</li>
+          {techStack.map((tech: string, index: number) => (
+            <li key={tech}>
+              {tech}
+              {index < techStack.length - 1 && ", "}
+            </li>
           ))}
         </ul>
         {githubUrl && (
