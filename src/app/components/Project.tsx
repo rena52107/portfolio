@@ -1,4 +1,6 @@
 import Image from "next/image";
+import MediumIcon from "../../../public/svgs/medium.svg";
+import GithubIcon from "../../../public/svgs/github.svg";
 
 type Project = {
   id: number;
@@ -41,11 +43,33 @@ const ProjectComponent: React.FC<Project> = ({
             <li key={tech}>{tech}</li>
           ))}
         </ul>
-        {/* Todo: Create icon component that shows description while hovering */}
-        {/* Todo: Add label for better accessibility */}
-        {githubUrl && <a href={githubUrl} target="_blank">GitHub</a>}
-        {mediumUrl && <a href={mediumUrl} target="_blank">Medium</a>}
-        {buttonInfo && <a href={buttonInfo.url} target="_blank">{buttonInfo.title}</a>}
+        {githubUrl && (
+          <a
+            href={githubUrl}
+            target="_blank"
+            className="tooltip tooltip-bottom"
+            data-tip="Github repo"
+            aria-label="Check Github repository"
+          >
+            <GithubIcon width={40} height={40} color="pink" />
+          </a>
+        )}
+        {mediumUrl && (
+          <a
+            href={mediumUrl}
+            target="_blank"
+            className="tooltip tooltip-bottom"
+            data-tip="Related articles"
+            aria-label="Check related articles on Medium"
+          >
+            <MediumIcon width={40} height={40} color="pink" />
+          </a>
+        )}
+        {buttonInfo && (
+          <a href={buttonInfo.url} target="_blank">
+            {buttonInfo.title}
+          </a>
+        )}
       </div>
     </div>
   );
