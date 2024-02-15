@@ -35,13 +35,15 @@ const ProjectComponent: React.FC<Project> = ({
       />
       <div>
         <h3>{title}</h3>
-        <p>{tag}</p>
+        <span className="inline-flex items-center rounded-md bg-secondary-light px-2 py-1 text-xs font-medium">
+          #{tag}
+        </span>
         <p>{description}</p>
-        <ul>
+        <ul className="flex">
           {techStack.map((tech: string, index: number) => (
             <li key={tech}>
               {tech}
-              {index < techStack.length - 1 && ", "}
+              {index < techStack.length - 1 && ","}&nbsp;
             </li>
           ))}
         </ul>
@@ -49,22 +51,22 @@ const ProjectComponent: React.FC<Project> = ({
           <a
             href={githubUrl}
             target="_blank"
-            className="tooltip tooltip-bottom"
+            className="icon-light-mode tooltip tooltip-bottom"
             data-tip="Github repo"
             aria-label="Check Github repository"
           >
-            <GithubIcon width={40} height={40} color="pink" />
+            <GithubIcon width={40} height={40} />
           </a>
         )}
         {mediumUrl && (
           <a
             href={mediumUrl}
             target="_blank"
-            className="tooltip tooltip-bottom"
+            className="icon-light-mode tooltip tooltip-bottom"
             data-tip="Related articles"
             aria-label="Check related articles on Medium"
           >
-            <MediumIcon width={40} height={40} color="pink" />
+            <MediumIcon width={40} height={40} />
           </a>
         )}
         {buttonInfo && (
