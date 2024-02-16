@@ -6,9 +6,8 @@ function About() {
       <div>
         <h2>About</h2>
         <div className="flex flex-row">
-          {/* Todo: Change Image size */}
           <Image
-            src={"/images/profile.jpeg"}
+            src={"/images/profile.jpg"}
             alt="Profile Picture"
             width={200}
             height={200}
