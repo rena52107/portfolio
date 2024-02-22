@@ -29,7 +29,13 @@ const ProjectComponent: React.FC<Project> = ({
   return (
     <div className="flex gap-3 flex-col md:flex-row md:items-start items-center">
       <div className="md:w-[420px] md:h-[300px] w-full h-[280px] relative flex justify-center shrink-0 bg-white/25 rounded-2xl">
-        <video autoPlay loop muted playsInline className="object-contain">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="object-contain rounded-2xl"
+        >
           <source src={`/images/projects/${imageUrl}`} type="video/webm" />
         </video>
       </div>
