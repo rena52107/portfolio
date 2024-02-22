@@ -21,14 +21,12 @@ function About() {
                 style={{
                   objectFit: "cover",
                 }}
-                className="rounded-full"
+                className="rounded-full grayscale"
               />
             </div>
             <p className="w-full md:text-body1">
               Hello there, I&apos;m Rena Sakata, a full stack developer based in
-              Vancouver. My training in Agile methodologies at Langara College
-              equipped me to deliver meaningful solutions in web and mobile app
-              development.
+              Vancouver.
               <br />
               <br />
               I&apos;m passionate about implementing cutting-edge, lightweight,
