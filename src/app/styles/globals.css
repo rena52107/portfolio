@@ -4,12 +4,21 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-html {
-  color: text-bg-bark;
-  background-color: text-bg-light;
+/********** Contact Icons **********/
+/* Light mode */
+.icon-light-mode {
+  color: #111;
 }
 
+.icon-light-mode :hover {
+  color: #bdbdbd;
+}
 
-svg:hover {
-  color: green;
+/* Dark mode */
+.icon-dark-mode {
+  color: #fff;
+}
+
+.icon-dark-mode :hover {
+  color: #bdbdbd;
 }

@@ -8,8 +8,8 @@ function Contact({ darkMode = false }) {
   let iconColor = darkMode ? "icon-dark-mode" : "icon-light-mode";
 
   return (
-    <ul className="flex flex-row gap-6">
-      <li className={`${iconColor}`}>
+    <ul className={`flex flex-row gap-6 ${iconColor}`}>
+      <li>
         <a
           href="https://github.com/rena52107"
           target="_blank"
@@ -21,7 +21,7 @@ function Contact({ darkMode = false }) {
           <GithubIcon width={48} height={48} />
         </a>
       </li>
-      <li className={`${iconColor}`}>
+      <li>
         <a
           href="https://www.linkedin.com/in/renasakata/"
           target="_blank"
@@ -33,7 +33,7 @@ function Contact({ darkMode = false }) {
           <LinkedInIcon width={48} height={48} />
         </a>
       </li>
-      <li className={`${iconColor}`}>
+      <li>
         <a
           href="https://medium.com/@rena52107/"
           target="_blank"
@@ -45,7 +45,7 @@ function Contact({ darkMode = false }) {
           <MediumIcon width={48} height={48} />
         </a>
       </li>
-      <li className={`${iconColor}`}>
+      <li>
         <a
           href="mailto:rena.sakata.cn@gmail.com"
           target="_blank"
@@ -57,14 +57,14 @@ function Contact({ darkMode = false }) {
           <MailIcon width={48} height={48} />
         </a>
       </li>
-      <li className={`${iconColor}`}>
+      <li>
         <a
           href="https://github.com/rena52107"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Download Resume"
           className="tooltip tooltip-bottom"
-          data-tip="Download"
+          data-tip="Resume"
         >
           <DocIcon width={48} height={48} />
         </a>
