@@ -28,17 +28,10 @@ const ProjectComponent: React.FC<Project> = ({
 }) => {
   return (
     <div className="flex gap-3 flex-col md:flex-row md:items-start items-center">
-      <div className="md:w-[420px] md:h-[300px] w-full h-[280px] relative flex shrink-0">
-        <Image
-          src={`/images/projects/${imageUrl}`}
-          alt={title}
-          sizes="100vw"
-          fill
-          style={{
-            objectFit: "contain",
-          }}
-          className="bg-white/25 rounded-2xl z-0"
-        />
+      <div className="md:w-[420px] md:h-[300px] w-full h-[280px] relative flex justify-center shrink-0 bg-white/25 rounded-2xl">
+        <video autoPlay loop muted playsInline className="object-contain">
+          <source src={`/images/projects/${imageUrl}`} type="video/webm" />
+        </video>
       </div>
       <div className="flex flex-col gap-2">
         <div className="flex gap-2 items-center">
