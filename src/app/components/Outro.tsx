@@ -9,10 +9,10 @@ function Outro() {
         className="flex flex-col justify-center items-center md:mx-auto md:max-w-130 gap-10"
       >
         <h2 className="text-center md:text-2xl text-heading4">
-          Thanks for checking out my portfolio
+          Thank you for reading
         </h2>
         <p className="text-center md:text-body1">
-          Feel free to reach out to me on any of the platforms below!
+          Feel free to reach out to me!
           <br />
           I&apos;d love to hear from you ;)
         </p>
