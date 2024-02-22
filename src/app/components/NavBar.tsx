@@ -7,6 +7,8 @@ import MailIcon from "../../../public/svgs/mail.svg";
 import DocIcon from "../../../public/svgs/description.svg";
 import CloseIcon from "../../../public/svgs/close.svg";
 import MenuIcon from "../../../public/svgs/menu.svg";
+import Contact from "./Contact";
+
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -54,58 +56,7 @@ function Navbar() {
             ))}
           </ul>
           {/* Contact icons */}
-          <ul className="flex flex-row flex-wrap justify-center items-center gap-2">
-            <li>
-              <a
-                href="https://github.com/rena52107"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="See GitHub Profile"
-              >
-                <GithubIcon className="md:size-9 size-7" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/renasakata/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Follow Rena on LinkedIn"
-              >
-                <LinkedInIcon className="md:size-9 size-7" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://medium.com/@rena52107/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Read Rena's Medium Blog"
-              >
-                <MediumIcon className="md:size-9 size-7" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="mailto:rena.sakata.cn@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Email Rena"
-              >
-                <MailIcon className="md:size-9 size-7" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/rena52107"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Download Resume"
-              >
-                <DocIcon className="md:size-9 size-7" />
-              </a>
-            </li>
-          </ul>
+          <Contact />
         </div>
       )}
     </nav>
