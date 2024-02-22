@@ -36,15 +36,15 @@ function Navbar() {
       {/* Mobile navigation menu */}
       <div className="md:hidden inline-flex items-center">
         <button onClick={toggleMenu}>
-          <MenuIcon className="size-9" />
+          <MenuIcon className="md:size-9 size-7" />
         </button>
       </div>
 
       {isOpen && (
-        <div className="md:hidden flex flex-col justify-center items-center gap-2 bg-white/95 text-bg-dark absolute -right-4 top-0 z-10 h-[600px] w-[300px] p-10 shadow-md">
+        <div className="md:hidden flex flex-col justify-center items-center gap-2 bg-white/95 text-bg-dark absolute -right-4 -top-4 z-10 h-[600px] w-[300px] p-10 shadow-md">
           <div className="md:hidden">
-            <button className="absolute right-4 top-1" onClick={toggleMenu}>
-              <CloseIcon className="size-9" />
+            <button className="absolute right-4 top-5" onClick={toggleMenu}>
+              <CloseIcon className="md:size-9 size-7" />
             </button>
           </div>
           <ul className="flex flex-col justify-center items-center my-10 gap-8">
@@ -63,7 +63,7 @@ function Navbar() {
                 rel="noopener noreferrer"
                 aria-label="See GitHub Profile"
               >
-                <GithubIcon className="md:size-9 size-6" />
+                <GithubIcon className="md:size-9 size-7" />
               </a>
             </li>
             <li>
@@ -73,7 +73,7 @@ function Navbar() {
                 rel="noopener noreferrer"
                 aria-label="Follow Rena on LinkedIn"
               >
-                <LinkedInIcon className="md:size-9 size-6" />
+                <LinkedInIcon className="md:size-9 size-7" />
               </a>
             </li>
             <li>
@@ -83,7 +83,7 @@ function Navbar() {
                 rel="noopener noreferrer"
                 aria-label="Read Rena's Medium Blog"
               >
-                <MediumIcon className="md:size-9 size-6" />
+                <MediumIcon className="md:size-9 size-7" />
               </a>
             </li>
             <li>
@@ -93,7 +93,7 @@ function Navbar() {
                 rel="noopener noreferrer"
                 aria-label="Email Rena"
               >
-                <MailIcon className="md:size-9 size-6" />
+                <MailIcon className="md:size-9 size-7" />
               </a>
             </li>
             <li>
@@ -103,7 +103,7 @@ function Navbar() {
                 rel="noopener noreferrer"
                 aria-label="Download Resume"
               >
-                <DocIcon className="md:size-9 size-6" />
+                <DocIcon className="md:size-9 size-7" />
               </a>
             </li>
           </ul>
