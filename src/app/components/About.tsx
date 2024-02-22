@@ -12,7 +12,7 @@ function About() {
             About
           </h2>
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-            <div className="size-72 relative">
+            <div className="size-72 relative shrink-0">
               <Image
                 src={"/images/profile.jpg"}
                 alt="Profile Picture"
@@ -20,8 +20,8 @@ function About() {
                 sizes="100vw"
                 style={{
                   objectFit: "cover",
-                  borderRadius: "50%",
                 }}
+                className="rounded-full"
               />
             </div>
             <p className="w-full md:text-body1">
