@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import NavBar from "./NavBar";
+import Logo from "../../../public/svgs/logo.svg";
 
 function Header() {
   const [displayProperty, setDisplayProperty] = useState("hidden");
@@ -24,10 +25,16 @@ function Header() {
 
   return (
     <div
-      className={`wrapper md:bg-primary-dark md:text-white md:px-16 md:py-10 md:relative sticky top-0 z-10 bg-white/75 text-bg-dark md:block ${displayProperty}`}
+      className={`wrapper md:bg-primary-dark md:text-white md:py-10 md:relative sticky top-0 z-10 bg-white/75 text-bg-dark md:block ${displayProperty}`}
     >
-      <header className={`flex flex-row justify-between md:max-w-1040 md:mx-auto`}>
-        <a href="/">Logo</a>
+      <header
+        id="home"
+        className={`flex flex-row justify-between items-center md:max-w-130 md:mx-auto`}
+      >
+        <a href="/">
+          {" "}
+          <Logo width={60} height={60} />
+        </a>
         <NavBar />
       </header>
     </div>
