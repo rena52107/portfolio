@@ -6,7 +6,7 @@ import MediumIcon from "../../../public/svgs/medium.svg";
 import MailIcon from "../../../public/svgs/mail.svg";
 import DocIcon from "../../../public/svgs/description.svg";
 import CloseIcon from "../../../public/svgs/close.svg";
-import Menu from "../../../public/svgs/menu.svg";
+import MenuIcon from "../../../public/svgs/menu.svg";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,51 +15,46 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  const navitems = [
+    { title: "Home", link: "/" },
+    { title: "About", link: "#about" },
+    { title: "Works", link: "#works" },
+    { title: "Contact", link: "#contact" },
+  ];
+
   return (
     <nav className="relative">
+      {/* Desktop navigation menu */}
       <ul className="hidden md:flex md:gap-10 space-x-4">
-        <li className="text-xl hover:underline">
-          <a href="/">Home</a>
-        </li>
-        <li className="text-xl hover:underline">
-          <a href="#about">About</a>
-        </li>
-        <li className="text-xl hover:underline">
-          <a href="#works">Works</a>
-        </li>
-        <li className="text-xl hover:underline">
-          <a href="#contact">Contact</a>
-        </li>
+        {navitems.map((item) => (
+          <li key={item.title} className="text-xl hover:underline">
+            <a href={item.link}>{item.title}</a>
+          </li>
+        ))}
       </ul>
+
+      {/* Mobile navigation menu */}
       <div className="md:hidden">
         <button onClick={toggleMenu}>
-          <Menu width={60} height={60} />
+          <MenuIcon width={60} height={60} />
         </button>
       </div>
 
       {isOpen && (
-        <div className="md:hidden flex flex-col justify-center items-center gap-2 bg-white text-bg-dark absolute right-0 top-0 z-10 h-[600px] w-[300px] p-10 shadow-md">
+        <div className="md:hidden flex flex-col justify-center items-center gap-2 bg-white text-bg-dark absolute -right-6 top-0 z-10 h-[600px] w-[300px] p-10  shadow-md">
           <div className="md:hidden">
-            <button className="absolute right-0 top-0" onClick={toggleMenu}>
-              {/* Close icon */}
+            <button className="absolute right-1 top-1" onClick={toggleMenu}>
               <CloseIcon width={60} height={60} />
             </button>
           </div>
           <ul className="flex flex-col justify-center items-center my-10 gap-8">
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#works">Works</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
+            {navitems.map((item) => (
+              <li key={item.title}>
+                <a href={item.link}>{item.title}</a>
+              </li>
+            ))}
           </ul>
-
+          {/* Contact icons */}
           <ul className="flex flex-row flex-wrap justify-center items-center gap-2">
             <li>
               <a
