@@ -18,7 +18,7 @@ function Contact({ darkMode = false }) {
           className="tooltip tooltip-bottom"
           data-tip="Github"
         >
-          <GithubIcon className="md:size-9 size-7" />
+          <GithubIcon width={60} height={60} className="md:size-9 size-7" />
         </a>
       </li>
       <li className="inline-flex items-center">
@@ -30,7 +30,7 @@ function Contact({ darkMode = false }) {
           className="tooltip tooltip-bottom"
           data-tip="LinkedIn"
         >
-          <LinkedInIcon className="md:size-9 size-7" />
+          <LinkedInIcon width={60} height={60} className="md:size-9 size-7" />
         </a>
       </li>
       <li className="inline-flex items-center">
@@ -42,7 +42,7 @@ function Contact({ darkMode = false }) {
           className="tooltip tooltip-bottom"
           data-tip="Medium"
         >
-          <MediumIcon className="md:size-9 size-7" />
+          <MediumIcon width={60} height={60} className="md:size-9 size-7" />
         </a>
       </li>
       <li className="inline-flex items-center">
@@ -54,7 +54,7 @@ function Contact({ darkMode = false }) {
           className="tooltip tooltip-bottom"
           data-tip="Send Email"
         >
-          <MailIcon className="md:size-9 size-7" />
+          <MailIcon width={60} height={60} className="md:size-9 size-7" />
         </a>
       </li>
       <li className="inline-flex items-center">
@@ -66,7 +66,7 @@ function Contact({ darkMode = false }) {
           className="tooltip tooltip-bottom"
           data-tip="Resume"
         >
-          <DocIcon className="md:size-9 size-7" />
+          <DocIcon width={60} height={60} className="md:size-9 size-7" />
         </a>
       </li>
     </ul>

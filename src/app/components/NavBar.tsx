@@ -7,7 +7,6 @@ import MailIcon from "../../../public/svgs/mail.svg";
 import DocIcon from "../../../public/svgs/description.svg";
 import CloseIcon from "../../../public/svgs/close.svg";
 import MenuIcon from "../../../public/svgs/menu.svg";
-
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -36,7 +35,7 @@ function Navbar() {
       {/* Mobile navigation menu */}
       <div className="md:hidden inline-flex items-center">
         <button onClick={toggleMenu}>
-          <MenuIcon className="md:size-9 size-7" />
+          <MenuIcon width={60} height={60} className="md:size-9 size-7" />
         </button>
       </div>
 
@@ -44,7 +43,7 @@ function Navbar() {
         <div className="md:hidden flex flex-col justify-center items-center gap-2 bg-white/95 text-bg-dark absolute -right-4 -top-4 z-10 h-[600px] w-[300px] p-10 shadow-md">
           <div className="md:hidden">
             <button className="absolute right-4 top-5" onClick={toggleMenu}>
-              <CloseIcon className="md:size-9 size-7" />
+              <CloseIcon width={60} height={60} className="md:size-9 size-7" />
             </button>
           </div>
           <ul className="flex flex-col justify-center items-center my-10 gap-8">

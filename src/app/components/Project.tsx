@@ -65,7 +65,7 @@ const ProjectComponent: React.FC<Project> = ({
               data-tip="Github"
               aria-label="Check Github repository"
             >
-              <GithubIcon className="size-10" />
+              <GithubIcon width={40} height={40} />
             </a>
           )}
           {mediumUrl && (
@@ -76,7 +76,7 @@ const ProjectComponent: React.FC<Project> = ({
               data-tip="Related articles"
               aria-label="Check related articles on Medium"
             >
-              <MediumIcon className="size-10" />
+              <MediumIcon width={40} height={40} />
             </a>
           )}
           {buttonInfo && (
