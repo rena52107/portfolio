@@ -12,13 +12,18 @@ function About() {
             About
           </h2>
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-            <Image
-              src={"/images/profile.jpg"}
-              alt="Profile Picture"
-              width={300}
-              height={300}
-              className="rounded-full h-full"
-            />
+            <div className="size-72 relative">
+              <Image
+                src={"/images/profile.jpg"}
+                alt="Profile Picture"
+                fill
+                sizes="100vw"
+                style={{
+                  objectFit: "cover",
+                  borderRadius: "50%",
+                }}
+              />
+            </div>
             <p className="w-full md:text-body1">
               Hello there, I&apos;m Rena Sakata, a full stack developer based in
               Vancouver. My training in Agile methodologies at Langara College
