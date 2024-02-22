@@ -24,6 +24,7 @@ function Hero() {
             width={600}
             height={600}
             alt="Illustration of Rena coding on a laptop"
+            priority={true}
           />
         </div>
       </section>
