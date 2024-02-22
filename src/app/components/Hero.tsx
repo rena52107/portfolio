@@ -3,26 +3,30 @@ import Contact from "./Contact";
 
 function Hero() {
   return (
-    <section className="flex flex-row">
-      <div>
+    <div className="wrapper bg-primary-dark md:py-40 md:px-0 py-32 px-8">
+      <section className="flex md:flex-row justify-center items-center md:mx-auto flex-col md:gap-0 gap-10">
         <div>
-          <h1>Hello, I&apos;m Rena.</h1>
-          <p className="text-bg-dark">
-            Full Stack Developer based in Vancouver, Canada. <br />
-            Skilled in JavaScript, React, Node.js, HTML5, CSS3.
-          </p>
+          <div className="text-white mb-8">
+            <h1 className="md:text-heading1 text-heading3 font-light">
+              Hello, I&apos;m <span className="md:text-heading1 font-semibold">Rena</span>.
+            </h1>
+            <p className="md:text-xl">
+              Full Stack Developer based in Vancouver, Canada. <br />
+              Skilled in JavaScript, React, Node.js, HTML5, CSS3.
+            </p>
+          </div>
+          <Contact darkMode={true} />
         </div>
-        <Contact />
-      </div>
-      <div>
-        <Image
-          src="/svgs/hero-main.svg"
-          width={400}
-          height={400}
-          alt="Illustration of Rena coding on a laptop"
-        />
-      </div>
-    </section>
+        <div>
+          <Image
+            src="/svgs/hero-main.svg"
+            width={600}
+            height={600}
+            alt="Illustration of Rena coding on a laptop"
+          />
+        </div>
+      </section>
+    </div>
   );
 }
 

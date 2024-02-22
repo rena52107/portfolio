@@ -2,18 +2,23 @@ import Image from "next/image";
 
 function About() {
   return (
-    <section id="about">
-      <div>
-        <h2>About</h2>
-        <div className="flex flex-row">
+    <section
+      id="about"
+      className="flex flex-col md:py-40 py-32 md:px-0 px-8 md:mx-auto md:max-w-130 gap-20"
+    >
+      <div className="flex flex-col justify-center items-center gap-6">
+        <h2 className="md:text-heading2 text-heading3 md:font-bold font-medium">
+          About
+        </h2>
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8">
           <Image
             src={"/images/profile.jpg"}
             alt="Profile Picture"
-            width={200}
-            height={200}
-            className="rounded-full"
+            width={300}
+            height={300}
+            className="rounded-full h-full"
           />
-          <p>
+          <p className="w-full md:text-body1">
             Hello there, I&apos;m Rena Sakata, a full stack developer based in
             Vancouver. My training in Agile methodologies at Langara College
             equipped me to deliver meaningful solutions in web and mobile app
@@ -31,9 +36,11 @@ function About() {
           </p>
         </div>
       </div>
-      <div>
-        <h2>My Skills</h2>
-        <div className=" grid md:grid-cols-8 grid-cols-4 md:grid-rows-2 grid-rows-4 gap-4">
+      <div className="flex flex-col justify-center items-center gap-6">
+        <h2 className="md:text-heading2 text-heading3 md:font-bold font-medium">
+          My Skills
+        </h2>
+        <div className="grid md:grid-cols-8 grid-cols-4 md:grid-rows-2 grid-rows-4 gap-4 w-fit">
           <Image
             src={"/svgs/logos/icons-html5.svg"}
             alt="HTML5"
@@ -130,8 +137,8 @@ function About() {
             width={60}
             height={60}
           />
-          <p>and more...</p>
         </div>
+        <p className="md:text-body1">and more...</p>
       </div>
     </section>
   );

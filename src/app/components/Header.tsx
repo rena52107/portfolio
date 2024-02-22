@@ -1,24 +1,36 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import NavBar from "./NavBar";
+
 function Header() {
+  const [displayProperty, setDisplayProperty] = useState("hidden");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setDisplayProperty("block");
+      } else {
+        setDisplayProperty("hidden");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="flex flex-row justify-between">
-      <a href="/">Logo</a>
-      <nav>
-        <ul className="flex flex-row gap-10">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#works">Works</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <div
+      className={`wrapper md:bg-primary-dark md:text-white md:px-16 md:py-10 md:relative sticky top-0 z-10 bg-white/75 text-bg-dark md:block ${displayProperty}`}
+    >
+      <header className={`flex flex-row justify-between md:max-w-1040 md:mx-auto`}>
+        <a href="/">Logo</a>
+        <NavBar />
+      </header>
+    </div>
   );
 }
 

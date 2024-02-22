@@ -10,13 +10,20 @@ const config: Config = {
       xl: "1440px",
     },
     fontFamily: {
-      sans: ["Noto Sans", "sans-serif"],
+      sans: ['"Noto Sans"', "sans-serif"],
       serif: ["Merriweather", "serif"],
     },
+
     extend: {
-      spacing: {
-        "128": "32rem",
-        "144": "36rem",
+      maxWidth: {
+        "130": "65rem",
+      },
+      fontSize: {
+        heading1: "3.5rem",
+        heading2: "2.75rem",
+        heading3: "2rem",
+        heading4: "1.5rem",
+        body1: "1.125rem",
       },
       colors: {
         transparent: "transparent",
@@ -35,9 +42,6 @@ const config: Config = {
         "bg-dark": "#111111",
         black: "#000",
         white: "#fff",
-      },
-      borderRadius: {
-        "4xl": "2rem",
       },
     },
   },
