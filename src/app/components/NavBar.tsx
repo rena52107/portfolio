@@ -23,7 +23,7 @@ function Navbar() {
   ];
 
   return (
-    <nav className="relative">
+    <nav className="relative flex items-center py-1">
       {/* Desktop navigation menu */}
       <ul className="hidden md:flex md:gap-10 space-x-4">
         {navitems.map((item) => (
@@ -34,17 +34,17 @@ function Navbar() {
       </ul>
 
       {/* Mobile navigation menu */}
-      <div className="md:hidden">
+      <div className="md:hidden inline-flex items-center">
         <button onClick={toggleMenu}>
-          <MenuIcon width={60} height={60} />
+          <MenuIcon className="size-9" />
         </button>
       </div>
 
       {isOpen && (
-        <div className="md:hidden flex flex-col justify-center items-center gap-2 bg-white text-bg-dark absolute -right-6 top-0 z-10 h-[600px] w-[300px] p-10  shadow-md">
+        <div className="md:hidden flex flex-col justify-center items-center gap-2 bg-white/95 text-bg-dark absolute -right-4 top-0 z-10 h-[600px] w-[300px] p-10 shadow-md">
           <div className="md:hidden">
-            <button className="absolute right-1 top-1" onClick={toggleMenu}>
-              <CloseIcon width={60} height={60} />
+            <button className="absolute right-4 top-1" onClick={toggleMenu}>
+              <CloseIcon className="size-9" />
             </button>
           </div>
           <ul className="flex flex-col justify-center items-center my-10 gap-8">
@@ -63,7 +63,7 @@ function Navbar() {
                 rel="noopener noreferrer"
                 aria-label="See GitHub Profile"
               >
-                <GithubIcon width={36} height={36} />
+                <GithubIcon className="md:size-9 size-6" />
               </a>
             </li>
             <li>
@@ -73,7 +73,7 @@ function Navbar() {
                 rel="noopener noreferrer"
                 aria-label="Follow Rena on LinkedIn"
               >
-                <LinkedInIcon width={36} height={36} />
+                <LinkedInIcon className="md:size-9 size-6" />
               </a>
             </li>
             <li>
@@ -83,7 +83,7 @@ function Navbar() {
                 rel="noopener noreferrer"
                 aria-label="Read Rena's Medium Blog"
               >
-                <MediumIcon width={36} height={36} />
+                <MediumIcon className="md:size-9 size-6" />
               </a>
             </li>
             <li>
@@ -93,7 +93,7 @@ function Navbar() {
                 rel="noopener noreferrer"
                 aria-label="Email Rena"
               >
-                <MailIcon width={36} height={36} />
+                <MailIcon className="md:size-9 size-6" />
               </a>
             </li>
             <li>
@@ -103,7 +103,7 @@ function Navbar() {
                 rel="noopener noreferrer"
                 aria-label="Download Resume"
               >
-                <DocIcon width={36} height={36} />
+                <DocIcon className="md:size-9 size-6" />
               </a>
             </li>
           </ul>

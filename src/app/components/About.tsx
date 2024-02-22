@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function About() {
   return (
-    <div className="wrapper md:py-40 py-32 md:px-0 px-8">
+    <div className="wrapper md:py-40 py-32 md:px-0 px-4">
       <section
         id="about"
         className="flex flex-col md:mx-auto md:max-w-130 gap-20"

@@ -4,7 +4,7 @@ import ProjectComponent from "./Project";
 
 function Works() {
   return (
-    <div className="wrapper bg-primary-light md:py-40 py-32 md:px-0 px-8">
+    <div className="wrapper bg-primary-light md:py-40 py-32 md:px-0 px-4">
       <section
         id="works"
         className="flex flex-col md:mx-auto md:max-w-130 gap-6"

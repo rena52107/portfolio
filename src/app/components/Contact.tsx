@@ -8,8 +8,8 @@ function Contact({ darkMode = false }) {
   let iconColor = darkMode ? "icon-dark-mode" : "icon-light-mode";
 
   return (
-    <ul className={`flex flex-row gap-6 ${iconColor}`}>
-      <li>
+    <ul className={`flex flex-row items-center gap-4 ${iconColor}`}>
+      <li className="inline-flex items-center">
         <a
           href="https://github.com/rena52107"
           target="_blank"
@@ -18,10 +18,10 @@ function Contact({ darkMode = false }) {
           className="tooltip tooltip-bottom"
           data-tip="Github"
         >
-          <GithubIcon width={48} height={48} />
+          <GithubIcon className="md:size-9 size-6" />
         </a>
       </li>
-      <li>
+      <li className="inline-flex items-center">
         <a
           href="https://www.linkedin.com/in/renasakata/"
           target="_blank"
@@ -30,10 +30,10 @@ function Contact({ darkMode = false }) {
           className="tooltip tooltip-bottom"
           data-tip="LinkedIn"
         >
-          <LinkedInIcon width={48} height={48} />
+          <LinkedInIcon className="md:size-9 size-6" />
         </a>
       </li>
-      <li>
+      <li className="inline-flex items-center">
         <a
           href="https://medium.com/@rena52107/"
           target="_blank"
@@ -42,10 +42,10 @@ function Contact({ darkMode = false }) {
           className="tooltip tooltip-bottom"
           data-tip="Medium"
         >
-          <MediumIcon width={48} height={48} />
+          <MediumIcon className="md:size-9 size-6" />
         </a>
       </li>
-      <li>
+      <li className="inline-flex items-center">
         <a
           href="mailto:rena.sakata.cn@gmail.com"
           target="_blank"
@@ -54,10 +54,10 @@ function Contact({ darkMode = false }) {
           className="tooltip tooltip-bottom"
           data-tip="Send Email"
         >
-          <MailIcon width={48} height={48} />
+          <MailIcon className="md:size-9 size-6" />
         </a>
       </li>
-      <li>
+      <li className="inline-flex items-center">
         <a
           href="https://github.com/rena52107"
           target="_blank"
@@ -66,7 +66,7 @@ function Contact({ darkMode = false }) {
           className="tooltip tooltip-bottom"
           data-tip="Resume"
         >
-          <DocIcon width={48} height={48} />
+          <DocIcon className="md:size-9 size-6" />
         </a>
       </li>
     </ul>

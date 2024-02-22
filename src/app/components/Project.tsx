@@ -65,7 +65,7 @@ const ProjectComponent: React.FC<Project> = ({
               data-tip="Github"
               aria-label="Check Github repository"
             >
-              <GithubIcon width={40} height={40} />
+              <GithubIcon className="size-10" />
             </a>
           )}
           {mediumUrl && (
@@ -76,13 +76,13 @@ const ProjectComponent: React.FC<Project> = ({
               data-tip="Related articles"
               aria-label="Check related articles on Medium"
             >
-              <MediumIcon width={40} height={40} />
+              <MediumIcon className="size-10" />
             </a>
           )}
           {buttonInfo && (
             <a href={buttonInfo.url} target="_blank">
               <button className="inline-flex items-center gap-2 rounded-full px-4 py-2 border border-[#79747E] text-primary-medium hover:bg-primary-medium/10 focus:border-primary-medium focus:bg-primary-medium/15 duration-300 text-sm">
-                <OpenInNew width={18} height={18} />
+                <OpenInNew className="size-[18px]" />
                 {buttonInfo.title}
               </button>
             </a>

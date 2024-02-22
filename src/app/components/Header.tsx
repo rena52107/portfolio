@@ -25,14 +25,14 @@ function Header() {
 
   return (
     <div
-      className={`wrapper md:bg-primary-dark md:text-white md:py-10 md:px-0 px-6 md:relative sticky top-0 z-10 bg-white/75 text-bg-dark md:block ${displayProperty}`}
+      className={`wrapper md:bg-primary-dark md:text-white md:py-10 px-4 md:relative sticky top-0 z-10 bg-white/75 text-bg-dark md:block ${displayProperty}`}
     >
       <header
         id="home"
-        className={`flex flex-row justify-between items-center md:max-w-130 md:mx-auto`}
+        className={`flex flex-row justify-between  items-center md:max-w-130 md:mx-auto`}
       >
         <a href="/">
-          <Logo width={60} height={60} />
+          <Logo className="size-9" />
         </a>
         <NavBar />
       </header>
