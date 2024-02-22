@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="wrapper bg-primary-dark text-white py-16 md:px-0 px-8">
-      <footer className="flex justify-between items-center max-w-xs md:max-w-screen-lg mx-auto">
+      <footer className="flex justify-between items-center md:max-w-screen-lg md:mx-auto">
         <p className="text-sm md:text-xl">© Rena Sakata 2024</p>
         <nav>
           <ul className="flex md:flex-row md:gap-10 flex-col gap-5 items-end">
