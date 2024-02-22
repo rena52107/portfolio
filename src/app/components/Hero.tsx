@@ -4,7 +4,7 @@ import Contact from "./Contact";
 function Hero() {
   return (
     <div className="wrapper bg-primary-dark md:py-40 md:px-0 py-32 px-8">
-      <section className="flex md:flex-row justify-center items-center md:mx-auto flex-col md:gap-0 gap-10">
+      <section className="flex md:flex-row justify-center items-center md:max-w-130 md:mx-auto flex-col md:gap-0 gap-10">
         <div>
           <div className="text-white mb-8">
             <h1 className="md:text-heading1 text-heading3 font-light">
