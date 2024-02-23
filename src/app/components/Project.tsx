@@ -36,7 +36,8 @@ const ProjectComponent: React.FC<Project> = ({
           playsInline
           className="object-contain rounded-2xl"
         >
-          <source src={`/images/projects/${imageUrl}`} type="video/webm" />
+          <source src={`/images/projects/${imageUrl}.webm`} type="video/webm" />
+          <source src={`/images/projects/${imageUrl}.mp4`} type="video/mp4" />
         </video>
       </div>
       <div className="flex flex-col gap-2">

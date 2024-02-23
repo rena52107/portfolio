@@ -15,7 +15,7 @@ export const projects = [
       "Node.js",
       "Express",
     ],
-    imageUrl: "dailygo_demo.webm",
+    imageUrl: "dailygo_demo",
     githubUrl: "https://github.com/Lion-teambits/dailyGo-app",
     buttonInfo: { title: "Marketing site", url: "https://dailygo.ca" },
   },
@@ -34,7 +34,7 @@ export const projects = [
       "Netlify",
       "Railway",
     ],
-    imageUrl: "edspresso_trainee.webm",
+    imageUrl: "edspresso_trainee",
     githubUrl: "https://github.com/Supernova-teambits/edspresso-supernova",
     buttonInfo: {
       title: "Live Demo",
@@ -56,7 +56,7 @@ export const projects = [
       "CORS",
       "Material UI",
     ],
-    imageUrl: "wheelScout_demo.webm",
+    imageUrl: "wheelScout_demo",
     githubUrl: "https://github.com/rena52107/hackaton-team-wmdd",
   },
   {
@@ -66,6 +66,6 @@ export const projects = [
     description:
       "A weather-based outfit suggestion app (PWA) that helps users decide what to wear based on their temperature sensitivity and the weather forecast. It covers all weather details throughout the day and suggests outfits for morning, evening, and nighttime.",
     techStack: ["HTML5", "Sass", "jQuery", "JavaScript", "Firebase"],
-    imageUrl: "bewear_demo.webm",
+    imageUrl: "bewear_demo",
   },
 ];
