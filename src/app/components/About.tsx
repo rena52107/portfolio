@@ -14,7 +14,7 @@ function About() {
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
             <div className="size-72 relative shrink-0">
               <Image
-                src={"/images/profile.jpg"}
+                src="/images/profile.jpg"
                 alt="Profile Picture"
                 fill
                 sizes="100vw"
@@ -46,97 +46,97 @@ function About() {
           </h2>
           <div className="grid md:grid-cols-8 grid-cols-4 md:grid-rows-2 grid-rows-4 gap-4 w-fit">
             <Image
-              src={"/svgs/logos/icons-html5.svg"}
+              src="/svgs/logos/icons-html5.svg"
               alt="HTML5"
               width={60}
               height={60}
             />{" "}
             <Image
-              src={"/svgs/logos/icons-css3.svg"}
+              src="/svgs/logos/icons-css3.svg"
               alt="CSS3"
               width={60}
               height={60}
             />
             <Image
-              src={"/svgs/logos/icons-sass.svg"}
+              src="/svgs/logos/icons-sass.svg"
               alt="SASS"
               width={60}
               height={60}
             />
             <Image
-              src={"/svgs/logos/icons-javascript.svg"}
+              src="/svgs/logos/icons-javascript.svg"
               alt="JavaScript"
               width={60}
               height={60}
             />{" "}
             <Image
-              src={"/svgs/logos/icons-typescript.svg"}
+              src="/svgs/logos/icons-typescript.svg"
               alt="TypeScript"
               width={60}
               height={60}
             />
             <Image
-              src={"/svgs/logos/icons-react.svg"}
+              src="/svgs/logos/icons-react.svg"
               alt="React"
               width={60}
               height={60}
             />
             <Image
-              src={"/svgs/logos/icons-nextjs.svg"}
+              src="/svgs/logos/icons-nextjs.svg"
               alt="Next.js"
               width={60}
               height={60}
             />{" "}
             <Image
-              src={"/svgs/logos/icons-tailwindcss.svg"}
+              src="/svgs/logos/icons-tailwindcss.svg"
               alt="Tailwind CSS"
               width={60}
               height={60}
             />
             <Image
-              src={"/svgs/logos/icons-nodejs.svg"}
+              src="/svgs/logos/icons-nodejs.svg"
               alt="Node.js"
               width={60}
               height={60}
             />
             <Image
-              src={"/svgs/logos/icons-express.svg"}
+              src="/svgs/logos/icons-express.svg"
               alt="Express"
               width={60}
               height={60}
             />{" "}
             <Image
-              src={"/svgs/logos/icons-mysql.svg"}
+              src="/svgs/logos/icons-mysql.svg"
               alt="MySQL"
               width={60}
               height={60}
             />
             <Image
-              src={"/svgs/logos/icons-mongodb.svg"}
+              src="/svgs/logos/icons-mongodb.svg"
               alt="MongoDB"
               width={60}
               height={60}
             />
             <Image
-              src={"/svgs/logos/icons-firebase.svg"}
+              src="/svgs/logos/icons-firebase.svg"
               alt="Firebase"
               width={60}
               height={60}
             />{" "}
             <Image
-              src={"/svgs/logos/icons-aws.svg"}
+              src="/svgs/logos/icons-aws.svg"
               alt="AWS"
               width={60}
               height={60}
             />
             <Image
-              src={"/svgs/logos/icons-wordpress.svg"}
+              src="/svgs/logos/icons-wordpress.svg"
               alt="WordPress"
               width={60}
               height={60}
             />
             <Image
-              src={"/svgs/logos/icons-php.svg"}
+              src="/svgs/logos/icons-php.svg"
               alt="PHP"
               width={60}
               height={60}
