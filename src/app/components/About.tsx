@@ -16,12 +16,14 @@ function About() {
               <Image
                 src="/images/profile.jpg"
                 alt="Profile Picture"
-                fill
+                fill={true}
                 sizes="100vw"
                 style={{
                   objectFit: "cover",
                 }}
                 className="rounded-full grayscale"
+                unoptimized
+                priority
               />
             </div>
             <p className="w-full md:text-body1">
