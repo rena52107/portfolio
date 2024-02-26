@@ -59,7 +59,7 @@ function Contact({ darkMode = false }) {
       </li>
       <li className="inline-flex items-center">
         <a
-          href="https://github.com/rena52107"
+          href="https://docs.google.com/document/d/1fYz9QQ_swWOABkZMKvShjiPxKPGjbjeHxvehewHb0kM/edit?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Download Resume"
