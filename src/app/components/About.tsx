@@ -22,7 +22,6 @@ function About() {
                   objectFit: "cover",
                 }}
                 className="rounded-full grayscale"
-                unoptimized
                 priority
               />
             </div>

@@ -5,7 +5,6 @@ This portfolio website has been created to showcase projects. It utilizes the fo
 - TypeScript
 - Next.js
 - Tailwind CSS
-- GitHub Actions
 
 ## Setup and Usage
 
