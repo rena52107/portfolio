@@ -1,10 +1,5 @@
 "use client";
 import { useState } from "react";
-import GithubIcon from "../../../public/svgs/github.svg";
-import LinkedInIcon from "../../../public/svgs/linkedin.svg";
-import MediumIcon from "../../../public/svgs/medium.svg";
-import MailIcon from "../../../public/svgs/mail.svg";
-import DocIcon from "../../../public/svgs/description.svg";
 import CloseIcon from "../../../public/svgs/close.svg";
 import MenuIcon from "../../../public/svgs/menu.svg";
 import Contact from "./Contact";
