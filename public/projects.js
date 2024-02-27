@@ -24,7 +24,7 @@ export const projects = [
     title: "Edspresso",
     tag: "team",
     description:
-      "A responsive fullstack web application with informative coffee brewing courses, coffee menu training, quizzes, and progress tracking for coffee shops to enhance their baristas’ skills and knowledge.",
+      "A responsive full stack web application with informative coffee brewing courses, coffee menu training, quizzes, and progress tracking for coffee shops to enhance their baristas’ skills and knowledge.",
     techStack: [
       "MongoDB",
       "Express",
@@ -58,6 +58,16 @@ export const projects = [
     ],
     imageUrl: "wheelScout_demo",
     githubUrl: "https://github.com/rena52107/hackaton-team-wmdd",
+  },
+  {
+    id: 3,
+    title: "Portfolio site",
+    tag: "personal",
+    description:
+      "A responsive portfolio site designed with simplicity, cleanliness, and informativeness in mind, tailored to facilitate recruiters' ease of browsing through my projects. The design follows the principles of Material Design and Web Accessibility standards, ensuring a user-friendly experience for all visitors. Utilizing Next.js and Vercel, platforms I hadn't explored previously, demonstrates my adaptability and eagerness to learn new technologies, while ensuring quick loading times for recruiters.",
+    techStack: ["React", "Next.js", "Tailwind CSS", "Node.js", "Vercel"],
+    imageUrl: "portfolio_demo",
+    githubUrl: "https://github.com/rena52107/portfolio/settings",
   },
   {
     id: 4,
