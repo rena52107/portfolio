@@ -20,7 +20,7 @@ const config: Config = {
       },
       fontSize: {
         heading1: "3.5rem",
-        heading2: "2.75rem",
+        heading2: "2.25rem",
         heading3: "2rem",
         heading4: "1.5rem",
         body1: "1.125rem",

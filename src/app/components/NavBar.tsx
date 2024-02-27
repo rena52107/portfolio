@@ -23,7 +23,7 @@ function Navbar() {
       {/* Desktop navigation menu */}
       <ul className="hidden md:flex md:gap-10 space-x-4">
         {navitems.map((item) => (
-          <li key={item.title} className="text-xl hover:underline">
+          <li key={item.title} className="hover:underline">
             <a href={item.link}>{item.title}</a>
           </li>
         ))}

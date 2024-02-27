@@ -12,7 +12,7 @@ function About() {
             About
           </h2>
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-            <div className="size-72 relative shrink-0">
+            <div className="size-60 relative shrink-0">
               <Image
                 src="/images/profile.jpg"
                 alt="Profile Picture"
@@ -25,7 +25,7 @@ function About() {
                 priority
               />
             </div>
-            <p className="w-full md:text-body1">
+            <p className="w-full">
               Hello there, I&apos;m Rena Sakata, a full stack developer based in
               Vancouver.
               <br />

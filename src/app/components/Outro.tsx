@@ -11,7 +11,7 @@ function Outro() {
         <h2 className="text-center md:text-2xl text-heading4">
           Thank you for taking the time to explore my work :)
         </h2>
-        <p className="text-center md:text-body1">
+        <p className="text-center">
           If you have any questions or would like to collaborate,
           <br />
           please feel free to contact me!

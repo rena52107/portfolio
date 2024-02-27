@@ -42,13 +42,15 @@ const ProjectComponent: React.FC<Project> = ({
       </div>
       <div className="flex flex-col gap-2">
         <div className="flex gap-2 items-center">
-          <h3 className="md:text-2xl text-heading4 font-medium">{title}</h3>
+          <h3 className="md:text-2xl text-heading4 md:font-semibold font-medium">
+            {title}
+          </h3>
           <span className="inline-flex items-center rounded-md bg-secondary-light px-2 py-1 text-xs font-medium  ring-1 ring-inset ring-secondary-light/10 shrink-0">
             #{tag}
           </span>
         </div>{" "}
-        <p className="md:text-body1 font-light">{description}</p>
-        <ul className="flex md:text-body1 flex-wrap">
+        <p className="font-light">{description}</p>
+        <ul className="flex flex-wrap">
           {techStack.map((tech: string, index: number) => (
             <li key={tech}>
               {tech}

@@ -9,7 +9,7 @@ function Works() {
         id="works"
         className="flex flex-col md:mx-auto md:max-w-130 gap-6"
       >
-        <h2 className="md:text-heading2 text-heading3 font-medium">Works</h2>
+        <h2 className="md:text-heading2 text-heading3 md:font-bold font-medium">Works</h2>
         {projects.map((project: any) => (
           <ProjectComponent
             key={project.id}
