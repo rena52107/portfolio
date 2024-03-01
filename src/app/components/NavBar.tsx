@@ -14,7 +14,7 @@ function Navbar() {
   const navitems = [
     { title: "Home", link: "/" },
     { title: "About", link: "#about" },
-    { title: "Works", link: "#works" },
+    { title: "Projects", link: "#projects" },
     { title: "Contact", link: "#contact" },
   ];
 
