@@ -64,7 +64,7 @@ export const projects = [
     title: "Portfolio site",
     tag: "personal",
     description:
-      "A responsive portfolio site designed with simplicity, cleanliness, and informativeness in mind, tailored to facilitate recruiters' ease of browsing through my projects. The design follows the principles of Material Design and Web Accessibility standards, ensuring a user-friendly experience for all visitors. Utilizing Next.js and Vercel, platforms I hadn't explored previously, demonstrates my adaptability and eagerness to learn new technologies, while ensuring quick loading times for recruiters.",
+      "A responsive website crafted with the design principles of simplicity and informativeness. The website follows Material Design and Web Accessibility standards to enhance the user experience. It was built using Next.js and deployed on Vercel, showcasing my adaptability and commitment to leveraging new technologies.",
     techStack: ["React", "Next.js", "Tailwind CSS", "Node.js", "Vercel"],
     imageUrl: "portfolio_demo",
     githubUrl: "https://github.com/rena52107/portfolio/settings",
