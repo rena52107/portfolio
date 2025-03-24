@@ -33,7 +33,7 @@ function Contact({ darkMode = false }) {
           <LinkedInIcon width={60} height={60} className="md:size-9 size-7" />
         </a>
       </li>
-      <li className="inline-flex items-center">
+      {/* <li className="inline-flex items-center">
         <a
           href="https://medium.com/@rena52107/"
           target="_blank"
@@ -44,7 +44,7 @@ function Contact({ darkMode = false }) {
         >
           <MediumIcon width={60} height={60} className="md:size-9 size-7" />
         </a>
-      </li>
+      </li> */}
       <li className="inline-flex items-center">
         <a
           href="mailto:rena.sakata.cn@gmail.com"
@@ -59,7 +59,7 @@ function Contact({ darkMode = false }) {
       </li>
       <li className="inline-flex items-center">
         <a
-          href="https://docs.google.com/document/d/1fYz9QQ_swWOABkZMKvShjiPxKPGjbjeHxvehewHb0kM/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1wg-7RGN_Hkws1vMNQl8b5FIIEoiAggTw/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Download Resume"
