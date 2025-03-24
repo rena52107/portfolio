@@ -26,7 +26,7 @@ function About() {
               />
             </div>
             <p className="w-full">
-              Hello there, I&apos;m Rena Sakata, a full stack developer based in
+              Hello there, I&apos;m Rena Sakata, a frontend developer based in
               Vancouver.
               <br />
               <br />

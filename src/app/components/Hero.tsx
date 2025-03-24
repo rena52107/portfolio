@@ -12,7 +12,7 @@ function Hero() {
               <span className="md:text-heading1 font-semibold">Rena</span>.
             </h1>
             <p className="md:text-xl md:whitespace-nowrap">
-              Full Stack Developer based in Vancouver, Canada. <br />
+              Frontend Developer based in Vancouver, Canada. <br />
               Skilled in JavaScript, React, Node.js, HTML5, CSS3.
             </p>
           </div>
