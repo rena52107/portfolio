@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleTagManager } from '@next/third-parties/google'
 import { Inter } from "next/font/google";
 import "./styles/globals.css";
 import Header from "./components/Header";
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleAnalytics gaId="G-C8S0K6MJK1" />
+      <GoogleTagManager gtmId="GTM-T282JNSR" />
       <body className={`${inter.className} text-bg-dark bg-bg-light font-sans`}>
         <Header />
         {children}
